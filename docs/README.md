@@ -86,4 +86,4 @@ Não houve mudança de banco: `makemigrations --check` não detecta alterações
   O mesmo Director poderia montar o PDF do plano alimentar (`nutrition/views/plan.py`,
   `export_pdf`), e o mesmo Prototype poderia copiar o plano (`copy`). Fica como trabalho futuro.
 * **Strategy nas operações de progressão.** Está citado como trabalho futuro no roteiro da apresentação.
-* **Publicar o fork no GitHub.** Não foi feito. Os passos estão no fim do [COMO_EXECUTAR.md](COMO_EXECUTAR.md).
+
