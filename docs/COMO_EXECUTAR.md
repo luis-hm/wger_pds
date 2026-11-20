@@ -99,3 +99,14 @@ git diff HEAD~1 --stat
 git diff HEAD~1 -- wger/manager/views/
 ```
 
+## Publicar no GitHub (não foi feito)
+
+1. No GitHub, faça **Fork** de https://github.com/wger-project/wger, ou crie um repositório vazio.
+2. Envie cada projeto como uma branch do mesmo repositório:
+
+```bash
+cd wger-fork && git remote add origin <url-do-repo> && git push origin main:antes
+cd ../wger-pds && git remote add origin <url-do-repo> && git push origin main:depois
+```
+
+Assim a comparação `antes...depois` no GitHub mostra o diff dos padrões.
